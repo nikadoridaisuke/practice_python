@@ -11,6 +11,7 @@ app = FastAPI()
 # add comment
 fake_items_db = [{"item_name": "Foo"}, {"item_name": "Bar"}, {"item_name": "Baz"}]
 
+# hello world
 @app.get("/")
 async def root():
   return {"Message": "Hello World"}
